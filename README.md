@@ -10,8 +10,13 @@ An implementation of [SRCNN](https://arxiv.org/abs/1501.00092)
 The model is trained using the scheme described in the paper with some small simplifications. 
 
 ![Origin](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795.JPEG)
+Original Image
+
 ![Bicubic](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_bicubic.JPEG)
+Bicubic interpolation
+
 ![SRCNN](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_srcnn.JPEG)
+SRCNN interpolation
 
 ## Usages
 To train SRCNN using the current training scheme
