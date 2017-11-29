@@ -9,14 +9,17 @@ An implementation of [SRCNN](https://arxiv.org/abs/1501.00092)
 ## Result
 The model is trained using the scheme described in the paper with some small simplifications. 
 
-![Origin](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795.JPEG)
 Original Image
 
-![Bicubic](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_bicubic.JPEG)
+![Origin](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795.JPEG)
+
 Bicubic interpolation
 
-![SRCNN](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_srcnn.JPEG)
+![Bicubic](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_bicubic.JPEG)
+
 SRCNN interpolation
+
+![SRCNN](https://github.com/justanhduc/SRCNN/blob/master/figures/ILSVRC2012_test_00007795_srcnn.JPEG)
 
 ## Usages
 To train SRCNN using the current training scheme
